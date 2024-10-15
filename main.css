@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head {
+    text-align: center;
+    font-family: Calibri;
+    color: #3b88a4;
+}
+
+.calender {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 32.5%);
+    gap: 1rem;
+    place-content: center;
+    font-family: Calibri;
+}
+
+.header {
+    background-color: #93cede;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+.days {
+    background-color: #b8dde6;
+}
+
+.holidays {
+    background-color: #ffffcc;
+    color: #93cede;
+}
+
+.weekend {
+    background-color: #d9d9d9;
+}
+
+.school {
+    background-color: #daeff2;
+}
+
+.exam {
+    background-color: #fcd3b3;
+}
+
+.sp {
+    background-color: #f8c091;
+}
+
+.poe {
+    background-color: #c0b6d1;
+}
+
+.training {
+    font-family: Calibri;
+}
+
+.training {
+    font-family: Calibri;
+}
+
+.training {
+    font-family: Calibri;
+}
+
+.training {
+    border-collapse: collapse;
+    width: 46%;
+    margin: -17px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
